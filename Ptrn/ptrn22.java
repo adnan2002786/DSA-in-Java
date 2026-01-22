@@ -11,12 +11,13 @@ public class ptrn22 {
     }
     public static void print22(int n) {
         for(int i=1; i<=n; i++){
-            for(int k =1; k<=i; k--){
-                System.out.print(k+" ");
+            for(int j =i; j>=1; j--){
+                System.out.print(j+" ");
 
             }
             System.out.println();
         }
+        
         
     }
     
